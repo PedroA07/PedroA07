@@ -1,7 +1,7 @@
 # Olá eu sou o Pedro!
 
 <div>
-<img loading="lazy" height="150em" src="https://github-readme-stats.vercel.app/api?username=PedroA07&show_icons=true&theme=default&include_all_commits=true&count_private=true"/>
+<img loading="lazy" height="150em" src="https://github-readme-stats.vercel.app/api?username=PedroA07&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true"/>
 <a href="https://github.com/PedroA07">
 <img loading="lazy" height="120em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PedroA07&layout=compact&langs_count=7&theme=default"/>
 </div>
