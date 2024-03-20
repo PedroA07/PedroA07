@@ -1,9 +1,17 @@
 # Olá eu sou o Pedro!
 
+<div style="display; inline-block">
+  <img aling="right" alt="Dog" src="<iframe src="https://giphy.com/embed/gVlgj80ZLp9yo" width="480" height="288" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/digg-soccer-world-cup-get-on-this-gVlgj80ZLp9yo">via GIPHY</a></p>"/>
+</div>
 <div>
 <img loading="lazy" height="150em" src="https://github-readme-stats.vercel.app/api?username=PedroA07&show_icons=true&theme=transparent&include_all_commits=true&count_private=true"/>
 <a href="https://github.com/PedroA07">
 <img loading="lazy" height="120em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PedroA07&layout=compact&langs_count=7&theme=transparent"/>
+</div>
+
+<div>
+  <a></a>
+  <a></a>
 </div>
 
 ## :inbox_tray: Contatos:
