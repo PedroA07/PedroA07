@@ -32,3 +32,5 @@
   <a href="https://steamcommunity.com/id/GamesPedr0/" target="_blank"><img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white" target="_blank" alt="Steam"></a>
   
 </div>
+
+![Snake animation](https://github.com/PedroA07/PedroA07/blob/output/github-contribution=grid-snake.svg)
