@@ -15,7 +15,7 @@
   <img align="center" alt="Pedro.HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/>
   <img align="center" alt="Pedro.CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/>
   
-  <img align="right" height="150" alt="Pedro-Icon" src="https://media.discordapp.net/attachments/1220027485920432148/1220027563414388796/My.png?ex=660d7236&is=65fafd36&hm=e781a7ffc3eb78da753bbdae435ca36f3b5016a48ae2924763918932366d4dc7&=&format=webp&quality=lossless&width=411&height=411"/> 
+  <img align="right" height="150" alt="Pedro-Icon" src="https://media.discordapp.net/attachments/1220027485920432148/1220463591589675038/icon.png?ex=660f084b&is=65fc934b&hm=eaeaa710e3d251be5e79d75dc39e9bf41b07794515669d0ae38c9ce310838eb7&=&format=webp&quality=lossless&width=440&height=392"/> 
 </div>
 
 ##
