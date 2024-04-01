@@ -10,6 +10,8 @@
 <!-- Introdução -->
 <p align="center"> Sou estudante de <b>Análise e Desenvolvimento de Sistemas</b>, na Universidade Paulista - UNIP </p>
 
+##
+
 <!-- GitHub Status -->
 ## GitHub Status
 
