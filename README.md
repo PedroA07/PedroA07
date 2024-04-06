@@ -8,19 +8,21 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=PedroA07&color=yellow" alt="Profile views" /> </p>
 
 <!-- Introdução -->
-<p align="center"> Sou estudante de <b>Análise e Desenvolvimento de Sistemas</b>, na Universidade Paulista - UNIP </p>
+<p align="center"> Comecei a estudar em 2021, quando entrei na faculcade de Análise e Desenvolvimento de Sistemas na UNIP (Universidade Paulista). Desde então venho me interessando cada vez mais nessa área. O que me inpusionou a estudadr outras liguagens e desenvolver meus próprios projetos. </p>
+
+
 
 <!-- GitHub Status -->
-## GitHub Status
+## 🤖 GitHub Status
 
 <div>
   <a href="https://github.com/PedroA07"></a>
-  <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api?username=PedroA07&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PedroA07&layout=compact&langs_count=7&theme=dracula"/> 
+  <img loading="lazy" height="150em" src="https://github-readme-stats.vercel.app/api?username=PedroA07&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+  <img loading="lazy" height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PedroA07&layout=compact&langs_count=7&theme=dracula"/> 
 </div>
 
 <!-- Minhas Skills -->
-## Minhas Habilidades:
+## 📈 Minhas Habilidades:
 
 <!-- Linguagens -->
 #### Principais:
@@ -51,6 +53,22 @@
 ![VSCommunity](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <img height="130" alt="Barney" src="./img/barney.gif">
+      </td>
+      <td>
+        <img height="130" alt="Harvey Spectre" src="./img/harvey-specter-suits.gif">
+      </td>
+      <td>
+        <img height="130" alt="Friends" src="./img/friends.gif">
+      </td>
+    </tr>
+  </table>
+</div>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroA07/PedroA07/output/github-contribution-grid-snake-dark.svg">
