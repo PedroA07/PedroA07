@@ -8,7 +8,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=PedroA07&color=yellow" alt="Profile views" /> </p>
 
 <!-- Introdução -->
-<p align="center"> Comecei a estudar em 2021, quando entrei na faculcade de Análise e Desenvolvimento de Sistemas na UNIP (Universidade Paulista). Desde então venho me interessando cada vez mais nessa área. O que me inpusionou a estudadr outras liguagens e desenvolver meus próprios projetos. </p>
+<p align="center"> Comecei a estudar em 2021, quando entrei na faculcade de Análise e Desenvolvimento de Sistemas na UNIP (Universidade Paulista). Desde então venho me interessando cada vez mais nessa área. O que me inpusionou a estudar outras liguagens e desenvolver meus próprios projetos. </p>
 
 
 
