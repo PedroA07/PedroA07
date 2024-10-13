@@ -19,8 +19,8 @@
 
 <div>
   <a href="https://github.com/PedroA07"></a>
-  <img loading="lazy" height="150em" src="https://github-readme-stats.vercel.app/api?username=PedroA07&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img loading="lazy" height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PedroA07&layout=compact&langs_count=7&theme=dracula"/> 
+  <img loading="lazy" height="150em" src="https://github-readme-stats.vercel.app/api?username=PedroA07&show_icons=true&theme=holi&include_all_commits=true&count_private=true"/>
+  <img loading="lazy" height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PedroA07&layout=compact&langs_count=7&theme=holi"/> 
 </div>
 
 <!-- Minhas Skills -->
