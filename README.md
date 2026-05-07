@@ -32,35 +32,27 @@ class Pedro:
 
 ## 🚀 Tecnologias & Ferramentas
 
-### 🖥️ Linguagens Principais
+### 🖥️ Linguagens
 <div align="center">
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
 </div>
 
-### 🌐 Web & Scripting
+### 🌐 Frontend & Backend
 <div align="center">
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-
-</div>
-
-### 🗄️ Bancos de Dados
-<div align="center">
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
 </div>
 
@@ -71,18 +63,29 @@ class Pedro:
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 </div>
 
-### 🛠️ Ferramentas
+### 🗄️ Banco de Dados
 <div align="center">
 
-![VSCode](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+
+</div>
+
+### 🛠️ Ferramentas & Plataformas
+<div align="center">
+
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VSCode](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 </div>
 
@@ -92,8 +95,10 @@ class Pedro:
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=PedroA07&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&title_color=58a6ff&icon_color=58a6ff"/>
-<img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=PedroA07&layout=compact&langs_count=8&theme=github_dark&title_color=58a6ff"/>
+<a href="https://github.com/PedroA07">
+  <img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=PedroA07&theme=github_dark"/>
+  <img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=PedroA07&theme=github_dark"/>
+</a>
 
 </div>
 
@@ -111,34 +116,22 @@ class Pedro:
 <table>
   <tr>
     <td align="center" width="50%">
-      <a href="https://github.com/PedroA07/Sistema-CPSMC">
-        <img src="https://img.shields.io/badge/📁%20Sistema--CPSMC-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff&labelColor=161b22"/>
-      </a>
-      <br/>
-      <sub>Sistema interno para associação de benefícios de servidores municipais</sub>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/PedroA07/The-Rise-of-Zaagraba">
-        <img src="https://img.shields.io/badge/🎮%20The--Rise--of--Zaagraba-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff&labelColor=161b22"/>
-      </a>
-      <br/>
-      <sub>Projeto de desenvolvimento de história para jogo RPG</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/PedroA07/Bot-Discord">
-        <img src="https://img.shields.io/badge/🤖%20Bot--Discord-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff&labelColor=161b22"/>
-      </a>
-      <br/>
-      <sub>Estudo de desenvolvimento de bot para Discord</sub>
-    </td>
-    <td align="center" width="50%">
       <a href="https://github.com/PedroA07/Operacional-SSZ-ALS">
-        <img src="https://img.shields.io/badge/💻%20Operacional--SSZ--ALS-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff&labelColor=161b22"/>
+        <img src="https://img.shields.io/badge/💻%20Operacional--SSZ--ALS-161b22?style=for-the-badge&logo=github&logoColor=58a6ff"/>
       </a>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
       <br/>
-      <sub>Projeto de sistema operacional em TypeScript</sub>
+      <sub>Sistema Operacional SSZ</sub>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/PedroA07/ICM-Louvores">
+        <img src="https://img.shields.io/badge/🎵%20ICM--Louvores-161b22?style=for-the-badge&logo=github&logoColor=58a6ff"/>
+      </a>
+      <br/><br/>
+      <img src="https://img.shields.io/github/languages/top/PedroA07/ICM-Louvores?style=flat-square&color=58a6ff"/>
+      <br/>
+      <sub>Projeto ICM Louvores</sub>
     </td>
   </tr>
 </table>
@@ -166,7 +159,6 @@ class Pedro:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pedroandradepereira)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PedroA07)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gamespedr184@gmail.com)
 
 </div>
 
