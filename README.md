@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Desenvolvedor+em+formação+%F0%9F%9A%80;Apaixonado+por+tecnologia+e+código+%F0%9F%92%BB;Explorando+o+mundo+do+desenvolvimento+%F0%9F%8C%8E)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Tecnólogo+em+ADS+%F0%9F%8E%93;Ciência+de+Dados+%26+Machine+Learning+%F0%9F%A4%96;Apaixonado+por+tecnologia+e+código+%F0%9F%92%BB;Transformando+dados+em+soluções+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 </div>
 
@@ -19,7 +19,8 @@ class Pedro:
     def __init__(self):
         self.name       = "Pedro Andrade Pereira"
         self.location   = "Brasil 🇧🇷"
-        self.education  = "Tecnólogo em ADS — UNIP (desde 2021)"
+        self.degree     = "Tecnólogo em ADS — UNIP ✅"
+        self.courses    = ["Ciência de Dados 📊", "Machine Learning 🤖"]
         self.linkedin   = "in/pedroandradepereira"
         self.status     = "Focado e evoluindo todos os dias 🎯"
 
@@ -60,6 +61,18 @@ class Pedro:
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+
+</div>
+
+### 🤖 Data Science & Machine Learning
+<div align="center">
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 </div>
 
