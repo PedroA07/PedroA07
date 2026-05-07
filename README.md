@@ -92,8 +92,8 @@ class Pedro:
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=PedroA07&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&border_color=30363d&title_color=58a6ff&icon_color=58a6ff"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PedroA07&layout=compact&langs_count=8&theme=github_dark&border_color=30363d&title_color=58a6ff"/>
+<img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=PedroA07&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&title_color=58a6ff&icon_color=58a6ff"/>
+<img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=PedroA07&layout=compact&langs_count=8&theme=github_dark&title_color=58a6ff"/>
 
 </div>
 
@@ -108,13 +108,40 @@ class Pedro:
 ## 🏆 Projetos em Destaque
 
 <div align="center">
-
-[![Sistema-CPSMC](https://github-readme-stats.vercel.app/api/pin/?username=PedroA07&repo=Sistema-CPSMC&theme=github_dark&border_color=30363d&title_color=58a6ff&icon_color=58a6ff)](https://github.com/PedroA07/Sistema-CPSMC)
-[![The-Rise-of-Zaagraba](https://github-readme-stats.vercel.app/api/pin/?username=PedroA07&repo=The-Rise-of-Zaagraba&theme=github_dark&border_color=30363d&title_color=58a6ff&icon_color=58a6ff)](https://github.com/PedroA07/The-Rise-of-Zaagraba)
-
-[![Bot-Discord](https://github-readme-stats.vercel.app/api/pin/?username=PedroA07&repo=Bot-Discord&theme=github_dark&border_color=30363d&title_color=58a6ff&icon_color=58a6ff)](https://github.com/PedroA07/Bot-Discord)
-[![Operacional-SSZ-ALS](https://github-readme-stats.vercel.app/api/pin/?username=PedroA07&repo=Operacional-SSZ-ALS&theme=github_dark&border_color=30363d&title_color=58a6ff&icon_color=58a6ff)](https://github.com/PedroA07/Operacional-SSZ-ALS)
-
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://github.com/PedroA07/Sistema-CPSMC">
+        <img src="https://img.shields.io/badge/📁%20Sistema--CPSMC-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff&labelColor=161b22"/>
+      </a>
+      <br/>
+      <sub>Sistema interno para associação de benefícios de servidores municipais</sub>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/PedroA07/The-Rise-of-Zaagraba">
+        <img src="https://img.shields.io/badge/🎮%20The--Rise--of--Zaagraba-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff&labelColor=161b22"/>
+      </a>
+      <br/>
+      <sub>Projeto de desenvolvimento de história para jogo RPG</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://github.com/PedroA07/Bot-Discord">
+        <img src="https://img.shields.io/badge/🤖%20Bot--Discord-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff&labelColor=161b22"/>
+      </a>
+      <br/>
+      <sub>Estudo de desenvolvimento de bot para Discord</sub>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/PedroA07/Operacional-SSZ-ALS">
+        <img src="https://img.shields.io/badge/💻%20Operacional--SSZ--ALS-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff&labelColor=161b22"/>
+      </a>
+      <br/>
+      <sub>Projeto de sistema operacional em TypeScript</sub>
+    </td>
+  </tr>
+</table>
 </div>
 
 ---
