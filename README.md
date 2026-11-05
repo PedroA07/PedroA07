@@ -1,218 +1,71 @@
-<div align="center">
+<!--
+  Você abriu o código-fonte. Pouca gente faz isso.
+  You opened the source. Few people do.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=200&section=header&text=Pedro%20Andrade&fontSize=60&fontColor=58a6ff&fontAlignY=38&desc=Análise%20e%20Desenvolvimento%20de%20Sistemas&descSize=20&descAlignY=60&descColor=8b949e&animation=fadeIn" />
+  nível 2/3: synt{pbzragnevb_gnzorz_r_pbqvtb}
+  dica: César giraria 13 casas. / hint: Caesar would rotate 13.
 
-</div>
+  O nível 3 não está em nenhum arquivo: foi apagado. Mas o git nunca esquece.
+  Level 3 is not in any file: it was deleted. But git never forgets.
+-->
 
-<div align="center">
+<p align="center">
+  <a href="https://nexus-cliente-hub.vercel.app/"><img src="assets/capa.svg" width="100%" alt="Capa de revista: Pedro Andrade, engenheiro de software, full stack, dados e IA, cyber sec em andamento. Edição 09. / Magazine cover: Pedro Andrade, software engineer."></a>
+</p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=750&lines=Tecn%C3%B3logo+em+ADS+%F0%9F%8E%93;Desenvolvedor+Full+Stack+%E2%80%94+React%2C+TypeScript%2C+Python+%F0%9F%92%BB;Ci%C3%AAncia+de+Dados+%26+Machine+Learning+%F0%9F%A4%96;Construindo+sistemas+que+rodam+em+produ%C3%A7%C3%A3o+%F0%9F%9A%80)](https://git.io/typing-svg)
+<p align="center">
+  <img src="assets/whoami.svg" width="49%" alt="Terminal: engenheiro de software e dev full stack, formado em ADS, com Ciência de Dados e Machine Learning concluídos e Cyber Segurança em andamento.">
+  <img src="assets/ficha.svg" width="49%" alt="Ficha de RPG: classe Eng. de Software, subclasse Cientista de Dados, em treino Hacker Ético. Arquitetura, back-end, front-end e banco de dados 8 de 10; dados e ML 7; mobile 6; game dev 5; segurança 4.">
+</p>
 
-</div>
+<p align="center">
+  <a href="https://pedroa07.github.io/Sonara-download/"><img src="assets/missao-sonara.svg" width="49%" alt="Sonara, missão principal: player de música desktop que baixa com capa e metadados, organiza a biblioteca e exporta até pro som do carro. / Desktop music player."></a>
+  <a href="https://github.com/PedroA07/Manda-Chuva-BOT"><img src="assets/missao-mandachuva.svg" width="49%" alt="Mandachuva: bot e site."></a>
+</p>
 
----
+<p align="center">
+  <img src="assets/missoes-secretas.svg" width="100%" alt="Missões secretas, de código privado: Operacional SSZ, James, Nexus Control, MatchBox e VTT RPG na Unity.">
+</p>
 
-## 👨‍💻 Sobre mim
+<p align="center">
+  <a href="https://pedro-widgets.vercel.app/api/spotify/open"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://pedro-widgets.vercel.app/api/spotify?theme=dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://pedro-widgets.vercel.app/api/spotify?theme=paper">
+    <img src="https://pedro-widgets.vercel.app/api/spotify?theme=dark" width="49%" alt="Trilha sonora ao vivo: o que estou ouvindo no Spotify e o top 5 do mês. / Live soundtrack from Spotify.">
+  </picture></a>
+  <a href="https://steamcommunity.com/id/GamesPedr0/"><img src="https://pedro-widgets.vercel.app/api/steam" width="49%" alt="Fora do expediente: meu status, nível e jogos recentes na Steam. / Off the clock: my Steam status and recent games."></a>
+</p>
 
-```python
-class Pedro:
-    def __init__(self):
-        self.name     = "Pedro Andrade Pereira"
-        self.location = "Brasil 🇧🇷"
-        self.degree   = "Tecnólogo em ADS — UNIP ✅"
-        self.focus    = ["Full Stack", "Ciência de Dados", "Machine Learning"]
-        self.stack    = ["TypeScript", "Python", "React", "Supabase"]
-        self.linkedin = "in/pedroandradepereira"
+<p align="center">
+  <a href="https://github.com/PedroA07/PedroA07/issues/new?title=flag%3A%20"><img src="assets/ctf.svg" width="100%" alt="Capture a flag: decifre ZmxhZ3tjdXJpb3NvX2VoX2Vsb2dpb30= e abra uma issue com o título flag: seguido da resposta. Clique para enviar. / Decode it and open an issue."></a>
+</p>
 
-    def hello_world(self):
-        print("Olá! Bem-vindo ao meu perfil. Vamos construir algo incrível juntos!")
-```
+<p align="center">
+  <img src="assets/inventario.svg" width="100%" alt="Inventário de tecnologias. Armas principais: TypeScript, JavaScript, Python, React, Next.js, Node, Tailwind, FastAPI. Dados: Supabase, Postgres, MySQL, MongoDB, SQLite, pgvector. IA e ML: Pandas, NumPy, scikit-learn, TensorFlow, Jupyter, Claude API. Mobile, desktop e jogos: React Native, Tauri, Electron, Unity, C#, Blender. Segurança e infra: Linux, Kali, Nmap, Burp, Wireshark, Docker, Git.">
+</p>
 
----
+<p align="center">
+  <img src="assets/conquistas.svg" width="100%" alt="Conquistas: Formado, Mente de Dados, Treinador de Modelos, Fundador e DJ de Terminal. Hacker Ético bloqueada, em 70%.">
+</p>
 
-## 🚀 Projetos em Destaque
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroA07/PedroA07/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroA07/PedroA07/output/github-contribution-grid-snake.svg">
+    <img src="https://raw.githubusercontent.com/PedroA07/PedroA07/output/github-contribution-grid-snake.svg" width="100%" alt="Cap. 4: uma cobra comendo meu gráfico de contribuições. / A snake eating my contribution graph.">
+  </picture>
+</p>
 
-<div align="center">
-<table>
-  <tr>
-    <td align="center" width="50%" valign="top">
-      <a href="https://pedroa07.github.io/Sonara-download/">
-        <img src="https://img.shields.io/badge/%F0%9F%8E%B5%20Sonara-161b22?style=for-the-badge&logo=github&logoColor=58a6ff"/>
-      </a>
-      <br/>
-      <sub>Player de música desktop com download integrado — baixa com capa e metadados, organiza a biblioteca e exporta para pendrive, celular e som do carro.</sub>
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Tauri%202-24C8DB?style=flat-square&logo=tauri&logoColor=white"/>
-      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-      <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/>
-      <br/>
-      <img src="https://img.shields.io/badge/Download%20p%C3%BAblico-1a7f37?style=flat-square"/>
-    </td>
-    <td align="center" width="50%" valign="top">
-      <img src="https://img.shields.io/badge/%F0%9F%9A%A2%20Operacional%20SSZ-161b22?style=for-the-badge&logoColor=58a6ff"/>
-      <br/>
-      <sub>Plataforma de gestão operacional para transporte de contêineres no Porto de Santos — viagens, motoristas, documentos e financeiro, sincronizados em tempo real.</sub>
-      <br/><br/>
-      <img src="https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Gemini%20API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white"/>
-      <br/>
-      <img src="https://img.shields.io/badge/%F0%9F%94%92%20Privado-30363d?style=flat-square"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%" valign="top">
-      <img src="https://img.shields.io/badge/%F0%9F%A4%96%20James-161b22?style=for-the-badge&logoColor=58a6ff"/>
-      <br/>
-      <sub>Agente pessoal com memória de longo prazo sobre um vault do Obsidian, usando RAG com busca vetorial e Claude API.</sub>
-      <br/><br/>
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-      <img src="https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Claude%20API-D97757?style=flat-square&logo=anthropic&logoColor=white"/>
-      <br/>
-      <img src="https://img.shields.io/badge/%F0%9F%94%92%20Privado-30363d?style=flat-square"/>
-    </td>
-    <td align="center" width="50%" valign="top">
-      <img src="https://img.shields.io/badge/%F0%9F%83%8F%20MatchBox-161b22?style=for-the-badge&logoColor=58a6ff"/>
-      <br/>
-      <sub>App para colecionadores: cataloga e expõe a coleção com controle do que se tem, do que é repetido e do que falta — e dá match com quem quer trocar.</sub>
-      <br/><br/>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white"/>
-      <br/>
-      <img src="https://img.shields.io/badge/%F0%9F%94%92%20Privado-30363d?style=flat-square"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%" valign="top">
-      <a href="https://github.com/PedroA07/ICM-Louvores">
-        <img src="https://img.shields.io/badge/%F0%9F%8E%BC%20ICM%20Louvores-161b22?style=for-the-badge&logo=github&logoColor=58a6ff"/>
-      </a>
-      <br/>
-      <sub>Reprodutor de louvores no estilo Spotify para Windows, com áudios, partituras e capas de álbum embutidas.</sub>
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white"/>
-      <img src="https://img.shields.io/github/languages/top/PedroA07/ICM-Louvores?style=flat-square&color=58a6ff"/>
-      <br/>
-      <img src="https://img.shields.io/badge/Releases%20p%C3%BAblicos-1a7f37?style=flat-square"/>
-    </td>
-    <td align="center" width="50%" valign="top">
-      <a href="https://github.com/PedroA07/noitada-web">
-        <img src="https://img.shields.io/badge/%F0%9F%8C%99%20Noitada-161b22?style=for-the-badge&logo=github&logoColor=58a6ff"/>
-      </a>
-      <br/>
-      <sub>Site do Noitada, projeto de comunidade no Discord — web, bot e app móvel compartilhando a mesma base.</sub>
-      <br/><br/>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-      <br/>
-      <img src="https://img.shields.io/badge/C%C3%B3digo%20aberto-1a7f37?style=flat-square"/>
-    </td>
-  </tr>
-</table>
-</div>
+<p align="center">
+  <a href="https://www.linkedin.com/in/pedroandradepereira"><img src="assets/contato.svg" width="100%" alt="Press start. Vamos construir algo? Let’s build something."></a>
+</p>
 
----
+<p align="center">
+  <a href="https://www.linkedin.com/in/pedroandradepereira"><img src="assets/botao-linkedin.svg" width="32%" alt="LinkedIn"></a>
+  <a href="https://nexus-cliente-hub.vercel.app/"><img src="assets/botao-portfolio.svg" width="32%" alt="Nexus, meu portfólio"></a>
+  <a href="https://steamcommunity.com/id/GamesPedr0/"><img src="assets/botao-steam.svg" width="32%" alt="Steam"></a>
+</p>
 
-## 🛠️ Tecnologias & Ferramentas
-
-### 💼 Uso diário
-<div align="center">
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
-
-### 🤖 Dados & IA
-<div align="center">
-
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Claude API](https://img.shields.io/badge/Claude%20API-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Gemini API](https://img.shields.io/badge/Gemini%20API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-</div>
-
-### 🎓 Formação & estudos
-<div align="center">
-
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-
-</div>
-
----
-
-## 📊 Estatísticas do GitHub
-
-<div align="center">
-
-<a href="https://github.com/PedroA07">
-  <img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=PedroA07&theme=github_dark"/>
-  <img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=PedroA07&theme=github_dark"/>
-</a>
-
-</div>
-
-<div align="center">
-
-![GitHub Streak](https://streak-stats.demolab.com?user=PedroA07&theme=github-dark-blue&border=30363d&stroke=30363d&ring=58a6ff&fire=ff6b6b&currStreakLabel=58a6ff)
-
-</div>
-
----
-
-## 🐍 Contribuições
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroA07/PedroA07/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroA07/PedroA07/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/PedroA07/PedroA07/output/github-contribution-grid-snake-dark.svg">
-</picture>
-
-</div>
-
----
-
-## 📫 Contato
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pedroandradepereira)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PedroA07)
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0d1117&height=120&section=footer" />
-
-</div>
+<p align="center">
+  <img src="https://pedro-widgets.vercel.app/api/views" width="49%" alt="Contador de visitas: você é o jogador número tal. / Visitor counter.">
+</p>
