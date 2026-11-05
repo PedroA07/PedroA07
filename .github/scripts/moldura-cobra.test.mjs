@@ -91,10 +91,9 @@ describe('workflow da cobra', () => {
     assert.match(passoDoPlacar, /test -f dist\/git-status\.svg/, 'precisa manter o placar anterior');
   });
 
-  it('publica numa branch própria, sem tocar na output do perfil atual', () => {
+  it('publica na output-hq e só roda a partir da main', () => {
     assert.match(workflow, /target_branch: output-hq/);
-    assert.doesNotMatch(workflow, /target_branch: output$/m);
-    assert.match(workflow, /- perfil-hq-09/);
+    assert.match(workflow, /branches:\s+- main\s+jobs:/);
   });
 
   it('o README mostra o arquivo que o workflow publica', () => {
