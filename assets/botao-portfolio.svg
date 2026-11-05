@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="290" height="56" viewBox="0 0 290 56" role="img" aria-label="NEXUS · PORTFÓLIO">
+<title>NEXUS · PORTFÓLIO</title>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.sans{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif}
+.serif{font-family:Georgia,'Times New Roman',serif}
+.gibi{font-family:'Comic Sans MS','Comic Neue',cursive}
+.emoji{font-family:'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="4" y="4" width="286" height="52" fill="#f1c75b"/>
+<rect x="1.5" y="1.5" width="283" height="49" fill="#17140f" stroke="#17140f" stroke-width="3"/>
+<text x="143" y="30.5" text-anchor="middle" font-size="14" font-weight="800" fill="#f2eee6">[B] NEXUS · PORTFÓLIO</text>
+</svg>

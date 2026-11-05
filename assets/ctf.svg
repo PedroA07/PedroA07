@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="306" viewBox="0 0 900 306" role="img" aria-label="Capture a flag: nível 1 em base64, ZmxhZ3tjdXJpb3NvX2VoX2Vsb2dpb30=. Clique para enviar sua resposta.">
+<title>Capture a flag: nível 1 em base64, ZmxhZ3tjdXJpb3NvX2VoX2Vsb2dpb30=. Clique para enviar sua resposta.</title>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.sans{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif}
+.serif{font-family:Georgia,'Times New Roman',serif}
+.gibi{font-family:'Comic Sans MS','Comic Neue',cursive}
+.emoji{font-family:'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs><pattern id="pontos-ctf" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="1.5" fill="#17140f" opacity="0.2"/></pattern></defs>
+<rect x="6" y="20" width="894" height="286" fill="#17140f"/>
+<rect x="1.5" y="15.5" width="891" height="283" fill="#f85149" stroke="#17140f" stroke-width="3"/>
+<rect x="3" y="17" width="888" height="280" fill="url(#pontos-ctf)"/>
+<g transform="rotate(-3 112 62)">
+<path d="M42 40 H182 Q198 40 198 54 V72 Q198 86 182 86 H96 L70 108 L74 86 H42 Q26 86 26 72 V54 Q26 40 42 40 Z" fill="#ffffff" stroke="#17140f" stroke-width="3" stroke-linejoin="round"/>
+<text class="gibi" x="112" y="71" text-anchor="middle" font-size="21" font-weight="900" fill="#17140f">PSST! <tspan class="emoji">👀</tspan></text>
+</g>
+<text class="sans" x="26" y="146" font-size="29" font-weight="900" letter-spacing="-.9" fill="#17140f">Tem uma flag escondida</text>
+<text class="sans" x="26" y="180" font-size="29" font-weight="900" letter-spacing="-.9" fill="#17140f">neste perfil.</text>
+<text x="26" y="210" class="serif" font-size="14.5" fill="#17140f">Decifre, abra uma issue com ela e seu @ entra no hall da fama.</text>
+<text x="26" y="230" class="serif" font-size="14.5" fill="#17140f">Três níveis: o 1 está aqui, o 2 no código-fonte do README, o 3</text>
+<text x="26" y="250" class="serif" font-size="14.5" fill="#17140f">num commit antigo.</text>
+<text class="serif" x="26" y="272" font-size="12" font-style="italic" fill="#17140f">Decode it, open an issue and your @ joins the hall of fame.</text>
+<rect x="542" y="48" width="338" height="238" fill="#17140f"/>
+<rect x="536" y="42" width="338" height="238" fill="#0a0d12" stroke="#17140f" stroke-width="3"/>
+<text x="556" y="72" font-size="12.5" fill="#f85149">[!] nível 1/3</text>
+<text x="556" y="98" font-size="13" font-weight="700" fill="#e3b341">ZmxhZ3tjdXJpb3NvX2VoX2Vsb2dpb30=</text>
+<text x="556" y="122" font-size="12" fill="#6e7681">dica: 64 é um número bonito</text>
+<line x1="556" x2="854" y1="140" y2="140" stroke="#2a313c" stroke-dasharray="4 4"/>
+<text x="556" y="162" font-size="12" fill="#c9d1d9"><tspan class="emoji">🏆</tspan> hall da fama</text>
+<g id="hall" data-hall='{}'>
+<text x="556" y="184" font-size="11.5" fill="#9198a1">@ninguém-ainda</text>
+</g>
+<rect x="556" y="228" width="124" height="30" fill="#f85149"/>
+<text x="618" y="248" text-anchor="middle" font-size="12.5" font-weight="800" fill="#0d1117">enviar flag ↗</text>
+<rect x="15" y="1" width="199.1" height="24" fill="#17140f" stroke="#17140f" stroke-width="2"/>
+<text x="26" y="17.5" font-size="11" font-weight="800" fill="#f85149" textLength="177.1" lengthAdjust="spacing">CAP. 3 · CAPTURE A FLAG</text>
+</svg>

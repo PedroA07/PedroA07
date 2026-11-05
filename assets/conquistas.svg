@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="232" viewBox="0 0 900 232" role="img" aria-label="Conquistas: Formado, Mente de Dados, Treinador de Modelos, Fundador, DJ de Terminal, Hacker Ético (bloqueada, 70%).">
+<title>Conquistas: Formado, Mente de Dados, Treinador de Modelos, Fundador, DJ de Terminal, Hacker Ético (bloqueada, 70%).</title>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.sans{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif}
+.serif{font-family:Georgia,'Times New Roman',serif}
+.gibi{font-family:'Comic Sans MS','Comic Neue',cursive}
+.emoji{font-family:'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="6" y="20" width="894" height="212" fill="#e3b341"/>
+<rect x="1.5" y="15.5" width="891" height="209" fill="#11141b" stroke="#17140f" stroke-width="3"/>
+<g>
+<rect x="22" y="42" width="278" height="78" fill="#0a0d12" stroke="#2a313c"/>
+<rect x="34" y="61" width="40" height="40" fill="#1e242d" stroke="#e3b341" stroke-width="2"/>
+<text class="emoji" x="54" y="88" text-anchor="middle" font-size="20">🎓</text>
+<text x="88" y="70" font-size="12.5" font-weight="800" fill="#f0f6fc">Formado</text>
+<text x="88" y="87" font-size="10.5" fill="#9198a1">ADS · UNIP</text>
+<text x="88" y="104" font-size="9.5" fill="#6e7681">graduated</text>
+</g>
+<g>
+<rect x="310" y="42" width="278" height="78" fill="#0a0d12" stroke="#2a313c"/>
+<rect x="322" y="61" width="40" height="40" fill="#1e242d" stroke="#e3b341" stroke-width="2"/>
+<text class="emoji" x="342" y="88" text-anchor="middle" font-size="20">🧠</text>
+<text x="376" y="70" font-size="12.5" font-weight="800" fill="#f0f6fc">Mente de Dados</text>
+<text x="376" y="87" font-size="10.5" fill="#9198a1">Ciência de Dados concluído</text>
+<text x="376" y="104" font-size="9.5" fill="#6e7681">data science, done</text>
+</g>
+<g>
+<rect x="598" y="42" width="278" height="78" fill="#0a0d12" stroke="#2a313c"/>
+<rect x="610" y="61" width="40" height="40" fill="#1e242d" stroke="#e3b341" stroke-width="2"/>
+<text class="emoji" x="630" y="88" text-anchor="middle" font-size="20">🤖</text>
+<text x="664" y="70" font-size="12.5" font-weight="800" fill="#f0f6fc">Treinador de Modelos</text>
+<text x="664" y="87" font-size="10.5" fill="#9198a1">Machine Learning concluído</text>
+<text x="664" y="104" font-size="9.5" fill="#6e7681">machine learning, done</text>
+</g>
+<g>
+<rect x="22" y="130" width="278" height="78" fill="#0a0d12" stroke="#2a313c"/>
+<rect x="34" y="149" width="40" height="40" fill="#1e242d" stroke="#e3b341" stroke-width="2"/>
+<text class="emoji" x="54" y="176" text-anchor="middle" font-size="20">🏢</text>
+<text x="88" y="158" font-size="12.5" font-weight="800" fill="#f0f6fc">Fundador</text>
+<text x="88" y="175" font-size="10.5" fill="#9198a1">abriu a Nexus</text>
+<text x="88" y="192" font-size="9.5" fill="#6e7681">founded Nexus</text>
+</g>
+<g>
+<rect x="310" y="130" width="278" height="78" fill="#0a0d12" stroke="#2a313c"/>
+<rect x="322" y="149" width="40" height="40" fill="#1e242d" stroke="#e3b341" stroke-width="2"/>
+<text class="emoji" x="342" y="176" text-anchor="middle" font-size="20">🎧</text>
+<text x="376" y="158" font-size="12.5" font-weight="800" fill="#f0f6fc">DJ de Terminal</text>
+<text x="376" y="175" font-size="10.5" fill="#9198a1">fez 2 players de música</text>
+<text x="376" y="192" font-size="9.5" fill="#6e7681">built 2 music players</text>
+</g>
+<g opacity=".62">
+<rect x="598" y="130" width="278" height="78" fill="#0a0d12" stroke="#2a313c"/>
+<rect x="610" y="149" width="40" height="40" fill="#1e242d" stroke="#6e7681" stroke-width="2"/>
+<text class="emoji" x="630" y="176" text-anchor="middle" font-size="20">🔓</text>
+<text x="664" y="158" font-size="12.5" font-weight="800" fill="#f0f6fc">Hacker Ético</text>
+<text x="664" y="175" font-size="10.5" fill="#9198a1">Cyber Segurança</text>
+<rect x="664" y="188" width="150" height="7" fill="#1e242d"/>
+<rect x="664" y="188" width="105" height="7" fill="#6e7681"/>
+<text x="822" y="195" font-size="10" fill="#9198a1">70%</text>
+</g>
+<rect x="15" y="1" width="206.79999999999998" height="24" fill="#e3b341" stroke="#17140f" stroke-width="2"/>
+<text x="26" y="17.5" font-size="11" font-weight="800" fill="#0d1117" textLength="184.79999999999998" lengthAdjust="spacing">CONQUISTAS DESBLOQUEADAS</text>
+</svg>

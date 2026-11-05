@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="352" viewBox="0 0 480 352" role="img" aria-label="Mandachuva, bot · site: Site do bot Mandachuva — descrição curta do que ele faz aqui.">
+<title>Mandachuva, bot · site: Site do bot Mandachuva — descrição curta do que ele faz aqui.</title>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.sans{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif}
+.serif{font-family:Georgia,'Times New Roman',serif}
+.gibi{font-family:'Comic Sans MS','Comic Neue',cursive}
+.emoji{font-family:'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif}
+
+@keyframes flutua{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+.flutua{animation:flutua 2.6s ease-in-out infinite}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs><pattern id="pontos-faixa" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="1.4" fill="#ffffff" opacity="0.33"/></pattern></defs>
+<rect x="6" y="20" width="474" height="332" fill="#1f6feb"/>
+<rect x="1.5" y="15.5" width="471" height="329" fill="#f2eee6" stroke="#17140f" stroke-width="3"/>
+<rect x="3" y="17" width="468" height="112" fill="#1f6feb"/>
+<rect x="3" y="17" width="468" height="112" fill="url(#pontos-faixa)"/>
+<rect x="3" y="129" width="468" height="3" fill="#17140f"/>
+<text class="emoji flutua" x="237" y="92" text-anchor="middle" font-size="52">🤠</text>
+<g transform="rotate(6 408.8 46)">
+<rect x="371.6" y="33" width="74.4" height="26" fill="#f1c75b" stroke="#17140f" stroke-width="2"/>
+<text class="gibi" x="408.8" y="51" text-anchor="middle" font-size="13" font-weight="900" fill="#17140f">MANDA!</text>
+</g>
+<text class="sans" x="22" y="169" font-size="26" font-weight="900" letter-spacing="-.8" fill="#17140f">Mandachuva</text>
+<text x="452" y="169" text-anchor="end" font-size="10" font-weight="800" letter-spacing="1" fill="#c4471f">BOT · SITE</text>
+<text x="22" y="195" class="serif" font-size="14.5" fill="#17140f">Site do bot Mandachuva — descrição curta do que ele faz</text>
+<text x="22" y="215" class="serif" font-size="14.5" fill="#17140f">aqui.</text>
+
+<text x="22" y="290" font-size="11" font-weight="700" fill="#5c554a">stack do projeto aqui</text>
+<rect x="22" y="300" width="430" height="2" fill="#17140f"/>
+<text x="22" y="326" font-size="12" font-weight="800" fill="#17140f">★ ao vivo · JavaScript</text>
+<rect x="360" y="309" width="92" height="26" fill="#17140f"/>
+<text x="406" y="326.5" text-anchor="middle" font-size="12" font-weight="800" fill="#f2eee6">ver site →</text>
+
+</svg>
