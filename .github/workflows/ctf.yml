@@ -1,0 +1,32 @@
+name: ctf
+
+# Valida flags enviadas como issue com título "flag: ...".
+# O título é controlado por quem abre a issue: ele nunca é interpolado em comandos.
+# O script lê o valor do arquivo do evento e compara só o SHA-256.
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+# Uma validação por vez, para duas pessoas não disputarem o mesmo ctf.svg.
+concurrency:
+  group: ctf
+  cancel-in-progress: false
+
+jobs:
+  validar:
+    if: startsWith(github.event.issue.title, 'flag:')
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: validar a flag
+        run: node .github/scripts/ctf.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
