@@ -1,45 +1,61 @@
 import { CONTATO } from '../dados.mjs';
-import { COR, esc, quadro, svg } from '../kit.mjs';
+import { ICONES } from '../icones.mjs';
+import { COR, esc, fatia, quadro } from '../kit.mjs';
 
-/** Controle desenhado à mão: os botões A, B e X são os três botões de link logo abaixo no README. */
-function controle(x, y) {
-  const botaoRedondo = (cx, cy, letra, cor) =>
-    `<circle cx="${cx}" cy="${cy}" r="14" fill="${cor}" stroke="${COR.tinta}" stroke-width="3"/><text x="${cx}" y="${cy + 4.5}" text-anchor="middle" font-size="13" font-weight="900" fill="${COR.tinta}">${letra}</text>`;
-  return `<g transform="translate(${x} ${y})">
-<rect x="5" y="5" width="232" height="104" fill="${COR.verde}"/>
-<rect x="1.5" y="1.5" width="229" height="101" fill="${COR.papel}" stroke="${COR.tinta}" stroke-width="3"/>
-<rect x="44" y="26" width="16" height="52" fill="${COR.tinta}"/>
-<rect x="26" y="44" width="52" height="16" fill="${COR.tinta}"/>
-<rect x="96" y="58" width="24" height="8" fill="${COR.marrom}"/>
-<text x="108" y="50" text-anchor="middle" font-size="8" font-weight="800" letter-spacing=".6" fill="${COR.marrom}">START</text>
-${botaoRedondo(146, 66, 'X', '#66c0f4')}
-${botaoRedondo(172, 38, 'B', COR.ouro)}
-${botaoRedondo(198, 66, 'A', COR.verde)}
-</g>`;
-}
+// Card único com os três botões empilhados à direita. Cada botão tem o próprio link,
+// então o card sai fatiado: a chamada à esquerda e uma fatia para cada botão.
+const LARGURA = 900;
+const ALTURA = 192;
+const CORTE_X = 612;
+const CORTES_Y = [0, 65, 121, ALTURA];
+const X_BOTAO = 627;
+const Y_BOTOES = [16, 72, 128];
+const LARGURA_BOTAO = 236;
+const ALTURA_BOTAO = 42;
+const LOGO_NEXUS = 'M4 20V4l16 16V4';
+
+const fundo = quadro({ largura: LARGURA, altura: ALTURA, topo: 0, fundo: COR.tinta, sombra: COR.verde });
 
 export function contato() {
-  const largura = 900;
-  const altura = 150;
   const css = `
 @keyframes pisca{0%,49%{opacity:1}50%,100%{opacity:0}}
 .pisca{animation:pisca 1.2s steps(1) infinite}
 `;
-  const corpo = `${quadro({ largura, altura, topo: 0, fundo: COR.tinta, sombra: COR.verde })}
-<text class="pisca" x="30" y="40" font-size="13" font-weight="800" letter-spacing="1.8" fill="${COR.ouro}">${esc(CONTATO.chamada)}</text>
-<text class="sans" x="30" y="84" font-size="34" font-weight="900" letter-spacing="-1" fill="${COR.papel}">${esc(CONTATO.titulo)}</text>
-<text class="serif" x="30" y="116" font-size="20" font-style="italic" fill="#cfc8bb">${esc(CONTATO.tituloEn)}</text>
-${controle(622, 18)}`;
-  return svg({ largura, altura, titulo: `Press start. ${CONTATO.titulo} ${CONTATO.tituloEn}`, css, corpo });
+  return fatia({
+    largura: CORTE_X,
+    altura: ALTURA,
+    titulo: `Press start. ${CONTATO.titulo} ${CONTATO.tituloEn}`,
+    css,
+    corpo: `${fundo}
+<text class="pisca" x="30" y="58" font-size="13" font-weight="800" letter-spacing="1.8" fill="${COR.ouro}">${esc(CONTATO.chamada)}</text>
+<text class="sans" x="30" y="106" font-size="38" font-weight="900" letter-spacing="-1.2" fill="${COR.papel}">${esc(CONTATO.titulo)}</text>
+<text class="serif" x="30" y="140" font-size="20" font-style="italic" fill="#cfc8bb">${esc(CONTATO.tituloEn)}</text>`,
+  });
 }
 
-export function botao({ texto, fundo, cor, sombra }) {
-  const largura = 290;
-  const altura = 56;
-  const corpo = `<rect x="4" y="4" width="${largura - 4}" height="${altura - 4}" fill="${sombra}"/>
-<rect x="1.5" y="1.5" width="${largura - 7}" height="${altura - 7}" fill="${fundo}" stroke="${COR.tinta}" stroke-width="3"/>
-<text x="${(largura - 4) / 2}" y="${altura / 2 + 2.5}" text-anchor="middle" font-size="14" font-weight="800" fill="${cor}">${esc(texto)}</text>`;
-  return svg({ largura, altura, titulo: texto.replace(/^\[.\]\s*/, ''), corpo });
+export function botao({ texto, logo, fundo: cores, cor, borda }, indice) {
+  const y = Y_BOTOES[indice];
+  const gradiente = Array.isArray(cores);
+  const defs = gradiente
+    ? `<linearGradient id="fundo-botao"><stop offset="0" stop-color="${cores[0]}"/><stop offset="1" stop-color="${cores[1]}"/></linearGradient>`
+    : '';
+  const desenho = logo
+    ? `<path fill="${cor}" d="${ICONES[logo]}"/>`
+    : `<path fill="none" stroke="${cor}" stroke-width="3" stroke-linejoin="round" d="${LOGO_NEXUS}"/>`;
+
+  return fatia({
+    x: CORTE_X,
+    y: CORTES_Y[indice],
+    largura: LARGURA - CORTE_X,
+    altura: CORTES_Y[indice + 1] - CORTES_Y[indice],
+    titulo: texto,
+    defs,
+    corpo: `${fundo}
+<rect x="${X_BOTAO + 3}" y="${y + 3}" width="${LARGURA_BOTAO}" height="${ALTURA_BOTAO}" fill="${borda}" opacity=".33"/>
+<rect x="${X_BOTAO + 1}" y="${y + 1}" width="${LARGURA_BOTAO - 2}" height="${ALTURA_BOTAO - 2}" fill="${gradiente ? 'url(#fundo-botao)' : cores}" stroke="${borda}" stroke-width="2"/>
+<g transform="translate(${X_BOTAO + 18} ${y + 12}) scale(.75)">${desenho}</g>
+<text class="sans" x="${X_BOTAO + 46}" y="${y + 26}" font-size="15" font-weight="700" fill="${cor}">${esc(texto)}</text>`,
+  });
 }
 
-export const botoes = () => CONTATO.botoes.map((dados) => [dados.arquivo, botao(dados)]);
+export const botoes = () => CONTATO.botoes.map((dados, i) => [dados.arquivo, botao(dados, i)]);

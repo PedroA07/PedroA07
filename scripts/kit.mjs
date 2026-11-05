@@ -70,6 +70,14 @@ export function quadro({ largura, altura, fundo, sombra, topo = TOPO, deslocamen
 <rect x="1.5" y="${topo + 1.5}" width="${largura - d - 3}" height="${altura - topo - d - 3}" fill="${fundo}" stroke="${COR.tinta}" stroke-width="3"/>`;
 }
 
+/**
+ * Janela sobre um desenho maior. Um <img> só aceita um link, então os cards com mais de um
+ * são desenhados inteiros e cortados em fatias, que o README emenda com align="left".
+ */
+export function fatia({ x = 0, y = 0, corpo, ...resto }) {
+  return svg({ ...resto, corpo: `<g transform="translate(${-x} ${-y})">\n${corpo}\n</g>` });
+}
+
 /** Etiqueta do topo esquerdo: mono, caixa alta, fundo colorido. */
 export function etiqueta({ texto, fundo, cor = '#0d1117' }) {
   const largura = larguraMono(texto, 11, 1.1);

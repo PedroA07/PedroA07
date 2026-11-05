@@ -30,12 +30,19 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=#56d364&color_dots=#e6dfd2,#f1c75b,#e8794f,#c4471f,#17140f
-            dist/github-contribution-grid-snake-dark.svg?color_snake=#56d364&color_dots=#161b22,#5c3a1e,#a0522d,#c4471f,#f1c75b
 
       - name: colocar a cobra na moldura de HQ
-        run: |
-          node .github/scripts/moldura-cobra.mjs dist/github-contribution-grid-snake.svg claro
-          node .github/scripts/moldura-cobra.mjs dist/github-contribution-grid-snake-dark.svg escuro
+        run: node .github/scripts/moldura-cobra.mjs dist/github-contribution-grid-snake.svg
+
+      # A cobra não depende do placar: se a consulta falhar, ela sai com o placar da véspera.
+      - name: gerar o placar de git status
+        continue-on-error: true
+        run: node .github/scripts/git-status.mjs dist/git-status.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: manter o placar anterior se a consulta falhou
+        run: test -f dist/git-status.svg || curl -fsSL -o dist/git-status.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/git-status.svg" || true
 
       # push the content of <build_dir> to a branch
       # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page

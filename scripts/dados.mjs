@@ -44,29 +44,29 @@ export const FICHA = {
 export const MISSOES = [
   {
     arquivo: 'missao-sonara',
-    etiqueta: 'CAP. 2 · MISSÕES EM DESTAQUE',
     nome: 'Sonara',
     tipo: 'MISSÃO PRINCIPAL',
-    emoji: '🎵',
+    imagem: 'sonara.jpg',
     onomatopeia: 'TUM-TSS!',
-    cor: '#c4471f',
-    resumo: 'Player de música desktop que baixa com capa e metadados, organiza a biblioteca e exporta até pro som do carro.',
-    resumoEn: 'Desktop music player: downloads with art and tags, organizes your library, exports to your car stereo.',
+    resumo:
+      'Player de música desktop que baixa com capa e metadados, organiza a biblioteca e exporta até pro som do carro. Tem letra sincronizada e modo vídeo, em Windows, macOS e Linux.',
+    resumoEn:
+      'Desktop music player: downloads with art and tags, organizes your library, exports to your car stereo. Synced lyrics and video mode on Windows, macOS and Linux.',
     stack: 'tauri 2 · react · typescript · sqlite',
     linguagem: 'TypeScript',
     acao: 'baixar',
   },
   {
-    // PENDÊNCIA: preencher descrição e stack. O link fica no README.md.
     arquivo: 'missao-mandachuva',
-    nome: 'Mandachuva',
+    nome: 'Manda Chuva',
     tipo: 'BOT · SITE',
-    emoji: '🤠',
+    imagem: 'manda-chuva.jpg',
     onomatopeia: 'MANDA!',
-    cor: '#1f6feb',
-    resumo: 'Site do bot Mandachuva — descrição curta do que ele faz aqui.',
-    resumoEn: '',
-    stack: 'stack do projeto aqui',
+    resumo:
+      'O bot oficial da resenha no Discord: cargos de cor, boas-vindas com card, festas que se trocam sozinhas, aniversários, tickets, moderação e perfil com medalhas, tudo num painel com login do Discord.',
+    resumoEn:
+      'Discord bot with color roles, welcome cards, self-changing holiday themes, birthdays, tickets, moderation and profile medals, all set up from a web panel.',
+    stack: 'discord.js · node 22 · preact · three.js',
     linguagem: 'JavaScript',
     acao: 'ver site',
   },
@@ -82,6 +82,7 @@ export const CTF = {
   textoEn: 'Decode it, open an issue and your @ joins the hall of fame.',
 };
 
+/** A marca é o nome de um logo de scripts/icones.mjs ou, se ele não existir, letras. */
 const ladrilhos = (lista) =>
   lista.split('|').map((item) => {
     const [marca, nome, fundo, cor = '#ffffff'] = item.split(',');
@@ -94,7 +95,7 @@ export const INVENTARIO = [
     nota: 'uso todo dia',
     cor: '#c4471f',
     itens: ladrilhos(
-      'TS,TypeScript,#3178c6|JS,JavaScript,#f1c75b,#17140f|Py,Python,#3776ab|⚛,React,#20232a,#61dafb|N›,Next.js,#17140f|Nd,Node,#3c873a|Tw,Tailwind,#0ea5b7|Fa,FastAPI,#009688',
+      'typescript,TypeScript,#3178c6|javascript,JavaScript,#f1c75b,#17140f|python,Python,#3776ab|react,React,#20232a,#61dafb|nextdotjs,Next.js,#17140f|nodedotjs,Node,#3c873a|tailwindcss,Tailwind,#0ea5b7|fastapi,FastAPI,#009688',
     ),
   },
   {
@@ -102,7 +103,7 @@ export const INVENTARIO = [
     nota: 'onde tudo mora',
     cor: '#1f6feb',
     itens: ladrilhos(
-      'Sb,Supabase,#3ecf8e,#17140f|Pg,Postgres,#336791|My,MySQL,#e48e00|Mg,MongoDB,#4ea94b|Sq,SQLite,#0f4c6b|pv,pgvector,#6e40c9',
+      'supabase,Supabase,#3ecf8e,#17140f|postgresql,Postgres,#336791|mysql,MySQL,#e48e00|mongodb,MongoDB,#4ea94b|sqlite,SQLite,#0f4c6b|pv,pgvector,#6e40c9',
     ),
   },
   {
@@ -110,7 +111,7 @@ export const INVENTARIO = [
     nota: 'concluído ✓',
     cor: '#1a7f37',
     itens: ladrilhos(
-      'Pd,Pandas,#150458|Np,NumPy,#4dabcf|Sk,scikit-learn,#f7931e,#17140f|Tf,TensorFlow,#ff6f00|Jp,Jupyter,#f37626|AI,Claude API,#d97757',
+      'pandas,Pandas,#150458|numpy,NumPy,#4dabcf|scikitlearn,scikit-learn,#f7931e,#17140f|tensorflow,TensorFlow,#ff6f00|jupyter,Jupyter,#f37626|anthropic,Claude API,#d97757',
     ),
   },
   {
@@ -118,7 +119,7 @@ export const INVENTARIO = [
     nota: 'mobile, desktop, jogos',
     cor: '#8250df',
     itens: ladrilhos(
-      'RN,React Native,#20232a,#61dafb|Ta,Tauri,#24c8db,#17140f|El,Electron,#47848f|U,Unity,#17140f|C#,C#,#68217a|Bl,Blender,#e87d0d',
+      'react,React Native,#20232a,#61dafb|tauri,Tauri,#24c8db,#17140f|electron,Electron,#47848f|unity,Unity,#17140f|C#,C#,#68217a|blender,Blender,#e87d0d',
     ),
   },
   {
@@ -126,7 +127,7 @@ export const INVENTARIO = [
     nota: 'em treino ↻',
     cor: '#cf222e',
     itens: ladrilhos(
-      '$_,Linux,#17140f,#56d364|Kl,Kali,#268bee|Nm,Nmap,#4b0082|Bp,Burp,#ff6633|Ws,Wireshark,#1679a7|Dk,Docker,#2496ed|Gt,Git,#f05032',
+      'linux,Linux,#17140f,#f1c75b|kalilinux,Kali,#268bee|Nm,Nmap,#4b0082|burpsuite,Burp Suite,#ff6633|wireshark,Wireshark,#1679a7|docker,Docker,#2496ed|git,Git,#f05032',
     ),
   },
 ];
@@ -144,9 +145,10 @@ export const CONTATO = {
   chamada: '▶ PRESS START PARA CONECTAR',
   titulo: 'Vamos construir algo?',
   tituloEn: 'Let’s build something.',
+  // Sem logo em scripts/icones.mjs, o botão da Nexus desenha o N do próprio site.
   botoes: [
-    { arquivo: 'botao-linkedin', texto: '[A] LINKEDIN', fundo: '#56d364', cor: '#0d1117', sombra: '#1a7f37' },
-    { arquivo: 'botao-portfolio', texto: '[B] NEXUS · PORTFÓLIO', fundo: '#17140f', cor: '#f2eee6', sombra: '#f1c75b' },
-    { arquivo: 'botao-steam', texto: '[X] STEAM', fundo: '#17140f', cor: '#66c0f4', sombra: '#66c0f4' },
+    { arquivo: 'botao-linkedin', texto: 'LinkedIn', logo: 'linkedin', fundo: '#0a66c2', cor: '#ffffff', borda: '#f2eee6' },
+    { arquivo: 'botao-portfolio', texto: 'Nexus · Portfólio', fundo: '#0b1b3b', cor: '#00e5ff', borda: '#00e5ff' },
+    { arquivo: 'botao-steam', texto: 'Steam', logo: 'steam', fundo: ['#171a21', '#1b2838'], cor: '#ffffff', borda: '#66c0f4' },
   ],
 };

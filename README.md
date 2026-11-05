@@ -18,13 +18,11 @@
   <img src="assets/ficha.svg" width="49%" alt="Ficha de RPG: classe Eng. de Software, subclasse Cientista de Dados, em treino Hacker Ético. Arquitetura, back-end, front-end e banco de dados 8 de 10; dados e ML 7; mobile 6; game dev 5; segurança 4.">
 </p>
 
-<p align="center">
-  <a href="https://pedroa07.github.io/Sonara-download/"><img src="assets/missao-sonara.svg" width="49%" alt="Sonara, missão principal: player de música desktop que baixa com capa e metadados, organiza a biblioteca e exporta até pro som do carro. / Desktop music player."></a>
-  <a href="https://github.com/PedroA07/Manda-Chuva-BOT"><img src="assets/missao-mandachuva.svg" width="49%" alt="Mandachuva: bot e site."></a>
-</p>
-
-<p align="center">
-  <img src="assets/missoes-secretas.svg" width="100%" alt="Missões secretas, de código privado: Operacional SSZ, James, Nexus Control, MatchBox e VTT RPG na Unity.">
+<p>
+  <img src="assets/missoes-topo.svg" width="100%" align="left" alt="Capítulo 2: missões em destaque.">
+  <a href="https://pedroa07.github.io/Sonara-download/"><img src="assets/missao-sonara.svg" width="50%" align="left" alt="Sonara, missão principal, com a tela de álbuns do app: player de música desktop que baixa com capa e metadados, organiza a biblioteca e exporta até pro som do carro. / Desktop music player."></a><a href="https://pedroa07.github.io/Interface-Manda-Chuva-Bot/"><img src="assets/missao-mandachuva.svg" width="50%" align="left" alt="Manda Chuva, bot e site, com a página inicial e o mascote: bot do Discord com cargos de cor, boas-vindas, festas automáticas, aniversários, tickets, moderação e painel web. / Discord bot and web panel."></a>
+  <img src="assets/missoes-secretas.svg" width="100%" align="left" alt="Missões secretas, de código privado: Operacional SSZ, James, Nexus Control, MatchBox e VTT RPG na Unity.">
+  <br clear="all">
 </p>
 
 <p align="center">
@@ -45,25 +43,23 @@
 </p>
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/PedroA07/PedroA07/output/git-status.svg" width="100%" alt="Placar do GitHub, atualizado todo dia: commits, pull requests, issues, repositórios, estrelas, seguidores, nível, sequência de dias, linguagens e a última semana. / GitHub stats, updated daily.">
+</p>
+
+<p align="center">
   <img src="assets/conquistas.svg" width="100%" alt="Conquistas: Formado, Mente de Dados, Treinador de Modelos, Fundador e DJ de Terminal. Hacker Ético bloqueada, em 70%.">
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroA07/PedroA07/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroA07/PedroA07/output/github-contribution-grid-snake.svg">
-    <img src="https://raw.githubusercontent.com/PedroA07/PedroA07/output/github-contribution-grid-snake.svg" width="100%" alt="Cap. 4: uma cobra comendo meu gráfico de contribuições. / A snake eating my contribution graph.">
-  </picture>
+  <img src="https://raw.githubusercontent.com/PedroA07/PedroA07/output/github-contribution-grid-snake.svg" width="100%" alt="Cap. 4: uma cobra comendo meu gráfico de contribuições. / A snake eating my contribution graph.">
 </p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/pedroandradepereira"><img src="assets/contato.svg" width="100%" alt="Press start. Vamos construir algo? Let’s build something."></a>
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/pedroandradepereira"><img src="assets/botao-linkedin.svg" width="32%" alt="LinkedIn"></a>
-  <a href="https://nexus-cliente-hub.vercel.app/"><img src="assets/botao-portfolio.svg" width="32%" alt="Nexus, meu portfólio"></a>
-  <a href="https://steamcommunity.com/id/GamesPedr0/"><img src="assets/botao-steam.svg" width="32%" alt="Steam"></a>
+<p>
+  <a href="https://www.linkedin.com/in/pedroandradepereira"><img src="assets/contato.svg" width="68%" align="left" alt="Press start. Vamos construir algo? Let’s build something."></a>
+  <a href="https://www.linkedin.com/in/pedroandradepereira"><img src="assets/botao-linkedin.svg" width="32%" align="left" alt="LinkedIn"></a>
+  <a href="https://nexus-cliente-hub.vercel.app/"><img src="assets/botao-portfolio.svg" width="32%" align="left" alt="Nexus, meu portfólio"></a>
+  <a href="https://steamcommunity.com/id/GamesPedr0/"><img src="assets/botao-steam.svg" width="32%" align="left" alt="Steam"></a>
+  <br clear="all">
 </p>
 
 <p align="center">
