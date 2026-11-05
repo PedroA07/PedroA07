@@ -31,8 +31,8 @@ describe('sequencias', () => {
 });
 
 describe('calcularNivel', () => {
-  it('sobe de nível pela raiz quadrada da soma de commits, PRs e estrelas', () => {
-    assert.deepEqual(calcularNivel({ commits: 100, prs: 20, estrelas: 1 }), { nivel: 11, progresso: 0 });
+  it('sobe de nível pela raiz quadrada de commits + PRs×5 + estrelas×10', () => {
+    assert.deepEqual(calcularNivel({ commits: 21, prs: 16, estrelas: 2 }), { nivel: 11, progresso: 0 });
   });
 
   it('mostra quanto falta para o próximo nível', () => {

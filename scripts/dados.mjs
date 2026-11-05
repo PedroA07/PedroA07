@@ -82,11 +82,11 @@ export const CTF = {
   textoEn: 'Decode it, open an issue and your @ joins the hall of fame.',
 };
 
-/** A marca é o nome de um logo de scripts/icones.mjs ou, se ele não existir, letras. */
+/** Nome, ícone de scripts/icones/ e, para o que não tem logo, as letras e a cor de fundo. */
 const ladrilhos = (lista) =>
   lista.split('|').map((item) => {
-    const [marca, nome, fundo, cor = '#ffffff'] = item.split(',');
-    return { marca, nome, fundo, cor };
+    const [nome, icone, marca, fundo] = item.split(',');
+    return { nome, icone, marca, fundo };
   });
 
 export const INVENTARIO = [
@@ -95,7 +95,7 @@ export const INVENTARIO = [
     nota: 'uso todo dia',
     cor: '#c4471f',
     itens: ladrilhos(
-      'typescript,TypeScript,#3178c6|javascript,JavaScript,#f1c75b,#17140f|python,Python,#3776ab|react,React,#20232a,#61dafb|nextdotjs,Next.js,#17140f|nodedotjs,Node,#3c873a|tailwindcss,Tailwind,#0ea5b7|fastapi,FastAPI,#009688',
+      'TypeScript,typescript|JavaScript,javascript|Python,python|React,react|Next.js,nextdotjs|Node,nodedotjs|Tailwind,tailwindcss|FastAPI,fastapi',
     ),
   },
   {
@@ -103,7 +103,7 @@ export const INVENTARIO = [
     nota: 'onde tudo mora',
     cor: '#1f6feb',
     itens: ladrilhos(
-      'supabase,Supabase,#3ecf8e,#17140f|postgresql,Postgres,#336791|mysql,MySQL,#e48e00|mongodb,MongoDB,#4ea94b|sqlite,SQLite,#0f4c6b|pv,pgvector,#6e40c9',
+      'Supabase,supabase|Postgres,postgresql|MySQL,mysql|MongoDB,mongodb|SQLite,sqlite|pgvector,,pv,#336791',
     ),
   },
   {
@@ -111,7 +111,7 @@ export const INVENTARIO = [
     nota: 'concluído ✓',
     cor: '#1a7f37',
     itens: ladrilhos(
-      'pandas,Pandas,#150458|numpy,NumPy,#4dabcf|scikitlearn,scikit-learn,#f7931e,#17140f|tensorflow,TensorFlow,#ff6f00|jupyter,Jupyter,#f37626|anthropic,Claude API,#d97757',
+      'Pandas,pandas|NumPy,numpy|scikit-learn,scikitlearn|TensorFlow,tensorflow|Jupyter,jupyter|Claude API,anthropic',
     ),
   },
   {
@@ -119,7 +119,7 @@ export const INVENTARIO = [
     nota: 'mobile, desktop, jogos',
     cor: '#8250df',
     itens: ladrilhos(
-      'react,React Native,#20232a,#61dafb|tauri,Tauri,#24c8db,#17140f|electron,Electron,#47848f|unity,Unity,#17140f|C#,C#,#68217a|blender,Blender,#e87d0d',
+      'React Native,react|Tauri,tauri|Electron,electron|Unity,unity|C#,,C#,#68217a|Blender,blender',
     ),
   },
   {
@@ -127,28 +127,28 @@ export const INVENTARIO = [
     nota: 'em treino ↻',
     cor: '#cf222e',
     itens: ladrilhos(
-      'linux,Linux,#17140f,#f1c75b|kalilinux,Kali,#268bee|Nm,Nmap,#4b0082|burpsuite,Burp Suite,#ff6633|wireshark,Wireshark,#1679a7|docker,Docker,#2496ed|git,Git,#f05032',
+      'Linux,linux|Kali,kalilinux|Nmap,,Nm,#4b0082|Burp Suite,burpsuite|Wireshark,wireshark|Docker,docker|Git,git',
     ),
   },
 ];
 
 export const CONQUISTAS = [
-  { icone: '🎓', titulo: 'Formado', texto: 'ADS · UNIP', textoEn: 'graduated' },
-  { icone: '🧠', titulo: 'Mente de Dados', texto: 'Ciência de Dados concluído', textoEn: 'data science, done' },
-  { icone: '🤖', titulo: 'Treinador de Modelos', texto: 'Machine Learning concluído', textoEn: 'machine learning, done' },
-  { icone: '🏢', titulo: 'Fundador', texto: 'abriu a Nexus', textoEn: 'founded Nexus' },
-  { icone: '🎧', titulo: 'DJ de Terminal', texto: 'fez 2 players de música', textoEn: 'built 2 music players' },
-  { icone: '🔓', titulo: 'Hacker Ético', texto: 'Cyber Segurança', textoEn: 'locked', progresso: 70 },
+  { icone: 'ach-grad', titulo: 'Formado', texto: 'ADS · UNIP', textoEn: 'graduated' },
+  { icone: 'ach-brain', titulo: 'Mente de Dados', texto: 'Ciência de Dados concluído', textoEn: 'data science, done' },
+  { icone: 'ach-robot', titulo: 'Treinador de Modelos', texto: 'Machine Learning concluído', textoEn: 'machine learning, done' },
+  { icone: 'ach-founder', titulo: 'Fundador', texto: 'abriu a Nexus', textoEn: 'founded Nexus' },
+  { icone: 'ach-dj', titulo: 'DJ de Terminal', texto: 'fez 2 players de música', textoEn: 'built 2 music players' },
+  { icone: 'ach-lock', titulo: 'Hacker Ético', texto: 'Cyber Segurança', textoEn: 'locked', progresso: 70 },
 ];
 
 export const CONTATO = {
   chamada: '▶ PRESS START PARA CONECTAR',
   titulo: 'Vamos construir algo?',
   tituloEn: 'Let’s build something.',
-  // Sem logo em scripts/icones.mjs, o botão da Nexus desenha o N do próprio site.
+  // A Nexus não tem arquivo em scripts/icones/: o botão desenha o N do próprio site.
   botoes: [
-    { arquivo: 'botao-linkedin', texto: 'LinkedIn', logo: 'linkedin', fundo: '#0a66c2', cor: '#ffffff', borda: '#f2eee6' },
+    { arquivo: 'botao-linkedin', texto: 'LinkedIn', logo: 'logo-linkedin', fundo: '#0a66c2', cor: '#ffffff', borda: '#f2eee6' },
     { arquivo: 'botao-portfolio', texto: 'Nexus · Portfólio', fundo: '#0b1b3b', cor: '#00e5ff', borda: '#00e5ff' },
-    { arquivo: 'botao-steam', texto: 'Steam', logo: 'steam', fundo: ['#171a21', '#1b2838'], cor: '#ffffff', borda: '#66c0f4' },
+    { arquivo: 'botao-steam', texto: 'Steam', logo: 'logo-steam', fundo: ['#171a21', '#1b2838'], cor: '#ffffff', borda: '#66c0f4' },
   ],
 };

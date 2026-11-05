@@ -1,6 +1,8 @@
 // Peças comuns dos SVGs do perfil. Nada aqui usa imagem externa nem JavaScript,
 // porque o GitHub exibe tudo dentro de <img>: só CSS e fontes do sistema.
 
+import { readFileSync } from 'node:fs';
+
 export const COR = {
   tinta: '#17140f',
   papel: '#f2eee6',
@@ -72,10 +74,18 @@ export function quadro({ largura, altura, fundo, sombra, topo = TOPO, deslocamen
 
 /**
  * Janela sobre um desenho maior. Um <img> só aceita um link, então os cards com mais de um
- * são desenhados inteiros e cortados em fatias, que o README emenda com align="left".
+ * são desenhados inteiros e cortados em fatias, que o README emenda com align="top".
+ * Não use align="left": no GitHub ele ganha 20px de padding e as fatias não cabem na linha.
  */
 export function fatia({ x = 0, y = 0, corpo, ...resto }) {
   return svg({ ...resto, corpo: `<g transform="translate(${-x} ${-y})">\n${corpo}\n</g>` });
+}
+
+/** Embute um ícone de scripts/icones/: dentro de um <img>, o SVG não carrega outro arquivo. */
+export function icone(nome, { x, y, tamanho }) {
+  return readFileSync(new URL(`./icones/${nome}.svg`, import.meta.url), 'utf8')
+    .trim()
+    .replace('<svg xmlns="http://www.w3.org/2000/svg"', `<svg x="${x}" y="${y}" width="${tamanho}" height="${tamanho}"`);
 }
 
 /** Etiqueta do topo esquerdo: mono, caixa alta, fundo colorido. */

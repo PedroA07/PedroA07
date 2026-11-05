@@ -12,6 +12,7 @@ on:
   push:
     branches:
       - main
+      - perfil-hq-09
 
 jobs:
   generate:
@@ -42,14 +43,15 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: manter o placar anterior se a consulta falhou
-        run: test -f dist/git-status.svg || curl -fsSL -o dist/git-status.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/git-status.svg" || true
+        run: test -f dist/git-status.svg || curl -fsSL -o dist/git-status.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-hq/git-status.svg" || true
 
+      # A edição 09 publica na output-hq: a branch output continua servindo o README atual da main.
       # push the content of <build_dir> to a branch
       # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: output
+          target_branch: output-hq
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

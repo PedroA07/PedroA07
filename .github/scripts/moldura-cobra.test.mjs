@@ -91,8 +91,14 @@ describe('workflow da cobra', () => {
     assert.match(passoDoPlacar, /test -f dist\/git-status\.svg/, 'precisa manter o placar anterior');
   });
 
+  it('publica numa branch própria, sem tocar na output do perfil atual', () => {
+    assert.match(workflow, /target_branch: output-hq/);
+    assert.doesNotMatch(workflow, /target_branch: output$/m);
+    assert.match(workflow, /- perfil-hq-09/);
+  });
+
   it('o README mostra o arquivo que o workflow publica', () => {
-    assert.ok(readme.includes('PedroA07/output/github-contribution-grid-snake.svg'));
+    assert.ok(readme.includes('PedroA07/output-hq/github-contribution-grid-snake.svg'));
     assert.ok(!readme.includes('snake-dark'));
   });
 });

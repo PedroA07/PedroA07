@@ -19,10 +19,8 @@
 </p>
 
 <p>
-  <img src="assets/missoes-topo.svg" width="100%" align="left" alt="Capítulo 2: missões em destaque.">
-  <a href="https://pedroa07.github.io/Sonara-download/"><img src="assets/missao-sonara.svg" width="50%" align="left" alt="Sonara, missão principal, com a tela de álbuns do app: player de música desktop que baixa com capa e metadados, organiza a biblioteca e exporta até pro som do carro. / Desktop music player."></a><a href="https://pedroa07.github.io/Interface-Manda-Chuva-Bot/"><img src="assets/missao-mandachuva.svg" width="50%" align="left" alt="Manda Chuva, bot e site, com a página inicial e o mascote: bot do Discord com cargos de cor, boas-vindas, festas automáticas, aniversários, tickets, moderação e painel web. / Discord bot and web panel."></a>
-  <img src="assets/missoes-secretas.svg" width="100%" align="left" alt="Missões secretas, de código privado: Operacional SSZ, James, Nexus Control, MatchBox e VTT RPG na Unity.">
-  <br clear="all">
+  <a href="https://pedroa07.github.io/Sonara-download/"><img src="assets/missao-sonara.svg" width="50%" align="top" alt="Sonara, missão principal, com a tela de álbuns do app: player de música desktop que baixa com capa e metadados, organiza a biblioteca e exporta até pro som do carro. / Desktop music player."></a><a href="https://pedroa07.github.io/Interface-Manda-Chuva-Bot/"><img src="assets/missao-mandachuva.svg" width="50%" align="top" alt="Manda Chuva, bot e site, com a página inicial e o mascote: bot do Discord com cargos de cor, boas-vindas, festas automáticas, aniversários, tickets, moderação e painel web. / Discord bot and web panel."></a>
+  <img src="assets/missoes-secretas.svg" width="100%" align="top" alt="Missões secretas, de código privado: Operacional SSZ, James, Nexus Control, MatchBox e VTT RPG na Unity.">
 </p>
 
 <p align="center">
@@ -43,7 +41,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PedroA07/PedroA07/output/git-status.svg" width="100%" alt="Placar do GitHub, atualizado todo dia: commits, pull requests, issues, repositórios, estrelas, seguidores, nível, sequência de dias, linguagens e a última semana. / GitHub stats, updated daily.">
+  <img src="https://raw.githubusercontent.com/PedroA07/PedroA07/output-hq/git-status.svg" width="100%" alt="Placar do GitHub, atualizado todo dia: commits, pull requests, issues, repositórios, estrelas, seguidores, nível, sequência de dias, linguagens e a última semana. / GitHub stats, updated daily.">
 </p>
 
 <p align="center">
@@ -51,15 +49,13 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PedroA07/PedroA07/output/github-contribution-grid-snake.svg" width="100%" alt="Cap. 4: uma cobra comendo meu gráfico de contribuições. / A snake eating my contribution graph.">
+  <img src="https://raw.githubusercontent.com/PedroA07/PedroA07/output-hq/github-contribution-grid-snake.svg" width="100%" alt="Cap. 4: uma cobra comendo meu gráfico de contribuições. / A snake eating my contribution graph.">
 </p>
 
 <p>
-  <a href="https://www.linkedin.com/in/pedroandradepereira"><img src="assets/contato.svg" width="68%" align="left" alt="Press start. Vamos construir algo? Let’s build something."></a>
-  <a href="https://www.linkedin.com/in/pedroandradepereira"><img src="assets/botao-linkedin.svg" width="32%" align="left" alt="LinkedIn"></a>
-  <a href="https://nexus-cliente-hub.vercel.app/"><img src="assets/botao-portfolio.svg" width="32%" align="left" alt="Nexus, meu portfólio"></a>
-  <a href="https://steamcommunity.com/id/GamesPedr0/"><img src="assets/botao-steam.svg" width="32%" align="left" alt="Steam"></a>
-  <br clear="all">
+  <a href="https://www.linkedin.com/in/pedroandradepereira"><img src="assets/contato-1.svg" width="68%" align="top" alt="Press start para conectar."></a><a href="https://www.linkedin.com/in/pedroandradepereira"><img src="assets/botao-linkedin.svg" width="32%" align="top" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/pedroandradepereira"><img src="assets/contato-2.svg" width="68%" align="top" alt="Vamos construir algo?"></a><a href="https://nexus-cliente-hub.vercel.app/"><img src="assets/botao-portfolio.svg" width="32%" align="top" alt="Nexus, meu portfólio"></a>
+  <a href="https://www.linkedin.com/in/pedroandradepereira"><img src="assets/contato-3.svg" width="68%" align="top" alt="Let’s build something."></a><a href="https://steamcommunity.com/id/GamesPedr0/"><img src="assets/botao-steam.svg" width="32%" align="top" alt="Steam"></a>
 </p>
 
 <p align="center">

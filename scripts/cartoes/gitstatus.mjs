@@ -43,7 +43,7 @@ ${grade}
 <rect x="${xBarra}" y="236" width="${larguraBarra}" height="12" fill="${COR.vazio}" stroke="${COR.tinta}" stroke-width="2"/>
 <rect x="${xBarra + 1}" y="237" width="${((larguraBarra - 2) * progresso).toFixed(1)}" height="10" fill="${COR.azul}"/>
 <text x="${X_ESQUERDA + LARGURA_ESQUERDA}" y="246" text-anchor="end" font-size="11.5" fill="${COR.apagado}">XP → LV ${nivel + 1}</text>
-<text x="${X_ESQUERDA}" y="272" font-size="10.5" fill="${COR.apagado}">nível = commits + PRs + estrelas</text>`;
+<text x="${X_ESQUERDA}" y="272" font-size="10.5" fill="${COR.apagado}">nível = commits + PRs×5 + estrelas×10</text>`;
 }
 
 function sequencia({ atual, recorde }) {

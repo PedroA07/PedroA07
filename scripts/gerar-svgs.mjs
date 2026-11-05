@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 import { lerHall } from '../.github/scripts/hall.mjs';
 import { capa } from './cartoes/capa.mjs';
 import { conquistas } from './cartoes/conquistas.mjs';
-import { botoes, contato } from './cartoes/contato.mjs';
+import { botoes, contatos } from './cartoes/contato.mjs';
 import { ctf } from './cartoes/ctf.mjs';
 import { ficha } from './cartoes/ficha.mjs';
 import { inventario } from './cartoes/inventario.mjs';
@@ -29,7 +29,7 @@ const arquivos = [
   ['ctf', ctf(hallAtual())],
   ['inventario', inventario()],
   ['conquistas', conquistas()],
-  ['contato', contato()],
+  ...contatos(),
   ...botoes(),
 ];
 

@@ -3,10 +3,10 @@ import { MISSOES, MISSOES_SECRETAS } from '../dados.mjs';
 import { COR, esc, etiqueta, fatia, larguraMono, linhasDeTexto, quadro, quebrar } from '../kit.mjs';
 
 // O capítulo é um card de papel só, com as duas missões e a faixa de secretas dentro.
-// Cada missão tem o próprio link, por isso ele sai em quatro fatias: topo, duas missões e rodapé.
+// Cada missão tem o próprio link, por isso ele sai em três fatias: as duas missões e o rodapé.
 const LARGURA = 900;
 const CORTE_X = 450;
-const CORTE_TOPO = 46;
+const Y_MISSAO = 46;
 const LARGURA_MISSAO = 409;
 const X_MISSOES = [29, 456];
 const RECUO = 18;
@@ -23,7 +23,7 @@ const ALTURA_TEXTO = Math.max(
   ...MISSOES.map(textoDe).map(({ resumo, ingles }) => resumo.length * LINHA_RESUMO + ingles.length * LINHA_INGLES),
 );
 const ALTURA_MISSAO = Y_RESUMO + ALTURA_TEXTO + 72;
-const CORTE_BASE = CORTE_TOPO + ALTURA_MISSAO + 10;
+const CORTE_BASE = Y_MISSAO + ALTURA_MISSAO + 10;
 const Y_FAIXA = CORTE_BASE + 6;
 const ALTURA_CARD = Y_FAIXA + ALTURA_FAIXA + 31;
 
@@ -42,7 +42,7 @@ function onomatopeia(texto, direita, y) {
 }
 
 function cartao(dados, x) {
-  const y = CORTE_TOPO;
+  const y = Y_MISSAO;
   const direita = x + LARGURA_MISSAO;
   const fim = y + ALTURA_MISSAO;
   const { resumo, ingles } = textoDe(dados);
@@ -74,26 +74,16 @@ ${linhasDeTexto(ingles, {
 <text x="${direita - RECUO - larguraAcao / 2}" y="${fim - 23.5}" text-anchor="middle" font-size="12" font-weight="800" fill="${COR.papel}">${esc(acao)}</text>`;
 }
 
-function topo() {
-  return fatia({
-    largura: LARGURA,
-    altura: CORTE_TOPO,
-    titulo: 'Capítulo 2: missões em destaque.',
-    corpo: `${fundo}
-${etiqueta({ texto: 'CAP. 2 · MISSÕES EM DESTAQUE', fundo: COR.laranja, cor: COR.papel })}`,
-  });
-}
-
 function missao(dados, indice) {
-  const x = indice * CORTE_X;
+  const rotulo = indice === 0 ? etiqueta({ texto: 'CAP. 2 · MISSÕES EM DESTAQUE', fundo: COR.laranja, cor: COR.papel }) : '';
   return fatia({
-    x,
-    y: CORTE_TOPO,
+    x: indice * CORTE_X,
     largura: CORTE_X,
-    altura: CORTE_BASE - CORTE_TOPO,
+    altura: CORTE_BASE,
     titulo: `${dados.nome}, ${dados.tipo.toLowerCase()}: ${dados.resumo}`,
     corpo: `${fundo}
-${cartao(dados, X_MISSOES[indice])}`,
+${cartao(dados, X_MISSOES[indice])}
+${rotulo}`,
   });
 }
 
@@ -112,4 +102,4 @@ export function missoesSecretas() {
   });
 }
 
-export const missoes = () => [['missoes-topo', topo()], ...MISSOES.map((dados, i) => [dados.arquivo, missao(dados, i)])];
+export const missoes = () => MISSOES.map((dados, i) => [dados.arquivo, missao(dados, i)]);

@@ -1,30 +1,27 @@
 import { INVENTARIO } from '../dados.mjs';
-import { ICONES } from '../icones.mjs';
-import { COR, esc, etiqueta, quadro, svg } from '../kit.mjs';
+import { COR, esc, etiqueta, icone, quadro, svg } from '../kit.mjs';
 
 const LARGURA = 900;
 const ALTURA_LINHA = 80;
 const TOPO_LISTA = 42;
 const LADRILHO = 44;
-const LOGO = 24;
 const COLUNA_ITENS = 212;
 const PASSO_ITEM = 76;
 
-function marcaDoLadrilho({ marca, cor }, x, y) {
-  const icone = ICONES[marca];
-  if (icone) {
-    const recuo = (LADRILHO - LOGO) / 2;
-    return `<path transform="translate(${x + recuo} ${y + recuo})" fill="${cor}" d="${icone}"/>`;
-  }
-  return `<text x="${x + LADRILHO / 2}" y="${y + 28}" text-anchor="middle" font-size="16" font-weight="900" letter-spacing="-.6" fill="${cor}">${esc(marca)}</text>`;
+/** Quem não tem logo vira letras sobre a cor da tecnologia. */
+function desenhoDoLadrilho({ icone: arquivo, marca, fundo }) {
+  if (arquivo) return icone(arquivo, { x: 0, y: 0, tamanho: LADRILHO });
+  return `<rect width="${LADRILHO}" height="${LADRILHO}" fill="${fundo}"/>
+<text x="${LADRILHO / 2}" y="28" text-anchor="middle" font-size="16" font-weight="900" letter-spacing="-.6" fill="${COR.branco}">${esc(marca)}</text>`;
 }
 
 function ladrilho(item, x, y) {
-  const centro = x + LADRILHO / 2;
   return `<rect x="${x + 3}" y="${y + 3}" width="${LADRILHO}" height="${LADRILHO}" rx="8" fill="${COR.tinta}"/>
-<rect x="${x}" y="${y}" width="${LADRILHO}" height="${LADRILHO}" rx="8" fill="${item.fundo}" stroke="${COR.tinta}" stroke-width="2.5"/>
-${marcaDoLadrilho(item, x, y)}
-<text x="${centro + 1.5}" y="${y + LADRILHO + 15}" text-anchor="middle" font-size="9" font-weight="700" fill="${COR.marrom}">${esc(item.nome)}</text>`;
+<g transform="translate(${x} ${y})">
+<g clip-path="url(#canto)">${desenhoDoLadrilho(item)}</g>
+<rect width="${LADRILHO}" height="${LADRILHO}" rx="8" fill="none" stroke="${COR.tinta}" stroke-width="2.5"/>
+</g>
+<text x="${x + LADRILHO / 2 + 1.5}" y="${y + LADRILHO + 15}" text-anchor="middle" font-size="9" font-weight="700" fill="${COR.marrom}">${esc(item.nome)}</text>`;
 }
 
 function linhaDoGrupo(grupo, indice) {
@@ -47,5 +44,6 @@ ${INVENTARIO.map(linhaDoGrupo).join('\n')}
 ${etiqueta({ texto: 'INVENTÁRIO · STACK', fundo: COR.tinta, cor: COR.papel })}`;
 
   const resumo = INVENTARIO.map((g) => `${g.grupo}: ${g.itens.map((i) => i.nome).join(', ')}`).join('. ');
-  return svg({ largura: LARGURA, altura, titulo: `Inventário de tecnologias. ${resumo}.`, corpo });
+  const defs = `<clipPath id="canto"><rect width="${LADRILHO}" height="${LADRILHO}" rx="8"/></clipPath>`;
+  return svg({ largura: LARGURA, altura, titulo: `Inventário de tecnologias. ${resumo}.`, defs, corpo });
 }

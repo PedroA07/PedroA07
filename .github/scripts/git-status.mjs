@@ -59,7 +59,7 @@ export function sequencias(dias) {
 }
 
 export function calcularNivel({ commits, prs, estrelas }) {
-  const xp = commits + prs + estrelas;
+  const xp = commits + prs * 5 + estrelas * 10;
   const nivel = Math.floor(Math.sqrt(xp));
   return { nivel, progresso: (xp - nivel ** 2) / ((nivel + 1) ** 2 - nivel ** 2) };
 }

@@ -1,5 +1,5 @@
 import { CONQUISTAS } from '../dados.mjs';
-import { COR, esc, etiqueta, quadro, svg } from '../kit.mjs';
+import { COR, esc, etiqueta, icone, quadro, svg } from '../kit.mjs';
 
 const LARGURA = 900;
 const COLUNAS = 3;
@@ -21,10 +21,10 @@ function conquista(dados, indice) {
 <text x="${texto + 158}" y="${y + 65}" font-size="10" fill="${COR.sub}">${dados.progresso}%</text>`
     : `<text x="${texto}" y="${y + 62}" font-size="9.5" fill="${COR.apagado}">${esc(dados.textoEn)}</text>`;
 
-  return `<g${bloqueada ? ' opacity=".62"' : ''}>
+  return `<g${bloqueada ? ' opacity=".55"' : ''}>
 <rect x="${x}" y="${y}" width="${CELULA.largura}" height="${CELULA.altura}" fill="${COR.terminal}" stroke="${COR.linha}"/>
-<rect x="${x + 12}" y="${y + 19}" width="40" height="40" fill="${COR.vazio}" stroke="${moldura}" stroke-width="2"/>
-<text class="emoji" x="${x + 32}" y="${y + 46}" text-anchor="middle" font-size="20">${dados.icone}</text>
+<rect x="${x + 12}" y="${y + 19}" width="40" height="40" fill="#1a1f27" stroke="${moldura}" stroke-width="2"/>
+${icone(dados.icone, { x: x + 19, y: y + 26, tamanho: 26 })}
 <text x="${texto}" y="${y + 28}" font-size="12.5" font-weight="800" fill="${COR.texto}">${esc(dados.titulo)}</text>
 <text x="${texto}" y="${y + 45}" font-size="10.5" fill="${COR.sub}">${esc(dados.texto)}</text>
 ${progresso}
