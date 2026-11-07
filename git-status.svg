@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="306" viewBox="0 0 900 306" role="img" aria-label="Placar do GitHub: 3241 commits este ano, 2 pull requests, 1 issues, 15 repositórios públicos, 5 estrelas, 8 seguidores. Nível 57. Sequência de 0 dias, recorde de 17. Linguagens: TypeScript 49%, JavaScript 34%, HTML 9%, CSS 4%, Python 3%, outras 1%.">
+<title>Placar do GitHub: 3241 commits este ano, 2 pull requests, 1 issues, 15 repositórios públicos, 5 estrelas, 8 seguidores. Nível 57. Sequência de 0 dias, recorde de 17. Linguagens: TypeScript 49%, JavaScript 34%, HTML 9%, CSS 4%, Python 3%, outras 1%.</title>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.sans{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif}
+.serif{font-family:Georgia,'Times New Roman',serif}
+.gibi{font-family:'Comic Sans MS','Comic Neue',cursive}
+.emoji{font-family:'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="6" y="20" width="894" height="286" fill="#4493f8"/>
+<rect x="1.5" y="15.5" width="891" height="283" fill="#0a0d12" stroke="#17140f" stroke-width="3"/>
+<text x="22" y="50" font-size="13" fill="#6e7681"><tspan fill="#56d364">➜</tspan> <tspan fill="#4493f8">~</tspan> git status --perfil</text>
+<rect x="23" y="63" width="145.33333333333334" height="66" fill="#11141b" stroke="#2a313c" stroke-width="2"/>
+<text x="33" y="81" font-size="10" letter-spacing=".8" fill="#6e7681">COMMITS</text>
+<text x="33" y="106" font-size="23" font-weight="900" letter-spacing="-.4" fill="#56d364">3.2k</text>
+<text x="33" y="120" font-size="10" fill="#9198a1">este ano</text>
+<rect x="178.33333333333334" y="63" width="145.33333333333334" height="66" fill="#11141b" stroke="#2a313c" stroke-width="2"/>
+<text x="188.33333333333334" y="81" font-size="10" letter-spacing=".8" fill="#6e7681">PULL REQUESTS</text>
+<text x="188.33333333333334" y="106" font-size="23" font-weight="900" letter-spacing="-.4" fill="#4493f8">2</text>
+<text x="188.33333333333334" y="120" font-size="10" fill="#9198a1">abertos + merged</text>
+<rect x="333.6666666666667" y="63" width="145.33333333333334" height="66" fill="#11141b" stroke="#2a313c" stroke-width="2"/>
+<text x="343.6666666666667" y="81" font-size="10" letter-spacing=".8" fill="#6e7681">ISSUES</text>
+<text x="343.6666666666667" y="106" font-size="23" font-weight="900" letter-spacing="-.4" fill="#e3b341">1</text>
+<text x="343.6666666666667" y="120" font-size="10" fill="#9198a1">abertas por mim</text>
+<rect x="23" y="137" width="145.33333333333334" height="66" fill="#11141b" stroke="#2a313c" stroke-width="2"/>
+<text x="33" y="155" font-size="10" letter-spacing=".8" fill="#6e7681">REPOS</text>
+<text x="33" y="180" font-size="23" font-weight="900" letter-spacing="-.4" fill="#f0f6fc">15</text>
+<text x="33" y="194" font-size="10" fill="#9198a1">públicos</text>
+<rect x="178.33333333333334" y="137" width="145.33333333333334" height="66" fill="#11141b" stroke="#2a313c" stroke-width="2"/>
+<text x="188.33333333333334" y="155" font-size="10" letter-spacing=".8" fill="#6e7681">ESTRELAS</text>
+<text x="188.33333333333334" y="180" font-size="23" font-weight="900" letter-spacing="-.4" fill="#e3b341">★ 5</text>
+<text x="188.33333333333334" y="194" font-size="10" fill="#9198a1">recebidas</text>
+<rect x="333.6666666666667" y="137" width="145.33333333333334" height="66" fill="#11141b" stroke="#2a313c" stroke-width="2"/>
+<text x="343.6666666666667" y="155" font-size="10" letter-spacing=".8" fill="#6e7681">SEGUIDORES</text>
+<text x="343.6666666666667" y="180" font-size="23" font-weight="900" letter-spacing="-.4" fill="#f07fb0">8</text>
+<text x="343.6666666666667" y="194" font-size="10" fill="#9198a1">party atual</text>
+<line x1="22" y1="222" x2="480" y2="222" stroke="#2a313c" stroke-dasharray="3 3"/>
+<text x="22" y="246" font-size="12" fill="#e3b341">LV 57</text>
+<rect x="82" y="236" width="294" height="12" fill="#1e242d" stroke="#17140f" stroke-width="2"/>
+<rect x="83" y="237" width="132.0" height="10" fill="#4493f8"/>
+<text x="480" y="246" text-anchor="end" font-size="11.5" fill="#6e7681">XP → LV 58</text>
+<text x="22" y="272" font-size="10.5" fill="#6e7681">nível = commits + PRs×5 + estrelas×10</text>
+<rect x="501" y="35" width="177" height="78" fill="#1a1208" stroke="#e8794f" stroke-width="2"/>
+<text class="emoji" x="589.5" y="58" text-anchor="middle" font-size="20">🔥</text>
+<text x="589.5" y="84" text-anchor="middle" font-size="22" font-weight="900" fill="#f0f6fc">0</text>
+<text x="589.5" y="102" text-anchor="middle" font-size="10" fill="#e8794f">dias seguidos</text>
+<rect x="688" y="35" width="177" height="78" fill="#11141b" stroke="#2a313c" stroke-width="2"/>
+<text x="776.5" y="56" text-anchor="middle" font-size="10" fill="#6e7681">RECORDE</text>
+<text x="776.5" y="84" text-anchor="middle" font-size="22" font-weight="900" fill="#f0f6fc">17</text>
+<text x="776.5" y="102" text-anchor="middle" font-size="10" fill="#9198a1">dias</text>
+<text x="500" y="133" font-size="10" letter-spacing=".8" fill="#6e7681">LINGUAGENS MAIS USADAS</text>
+<rect x="501" y="143" width="364" height="12" fill="#1e242d" stroke="#17140f" stroke-width="2"/>
+<rect x="502.0" y="144" width="177.4" height="10" fill="#3178c6"/><rect x="679.4" y="144" width="123.1" height="10" fill="#f1e05a"/><rect x="802.5" y="144" width="32.6" height="10" fill="#e34c26"/><rect x="835.0" y="144" width="14.5" height="10" fill="#663399"/><rect x="849.5" y="144" width="10.9" height="10" fill="#3572A5"/><rect x="860.4" y="144" width="3.6" height="10" fill="#6e7681"/>
+<rect x="500.5" y="163.5" width="9" height="9" fill="#3178c6" stroke="#17140f"/>
+<text x="515" y="172" font-size="11" fill="#c9d1d9">TypeScript <tspan fill="#6e7681">49%</tspan></text>
+<rect x="683.5" y="163.5" width="9" height="9" fill="#f1e05a" stroke="#17140f"/>
+<text x="698" y="172" font-size="11" fill="#c9d1d9">JavaScript <tspan fill="#6e7681">34%</tspan></text>
+<rect x="500.5" y="179.5" width="9" height="9" fill="#e34c26" stroke="#17140f"/>
+<text x="515" y="188" font-size="11" fill="#c9d1d9">HTML <tspan fill="#6e7681">9%</tspan></text>
+<rect x="683.5" y="179.5" width="9" height="9" fill="#663399" stroke="#17140f"/>
+<text x="698" y="188" font-size="11" fill="#c9d1d9">CSS <tspan fill="#6e7681">4%</tspan></text>
+<rect x="500.5" y="195.5" width="9" height="9" fill="#3572A5" stroke="#17140f"/>
+<text x="515" y="204" font-size="11" fill="#c9d1d9">Python <tspan fill="#6e7681">3%</tspan></text>
+<rect x="683.5" y="195.5" width="9" height="9" fill="#6e7681" stroke="#17140f"/>
+<text x="698" y="204" font-size="11" fill="#c9d1d9">outras <tspan fill="#6e7681">1%</tspan></text>
+<rect x="500.0" y="258.4" width="48.3" height="3.6" fill="#56d364" stroke="#17140f"/>
+<text x="524.1" y="275" text-anchor="middle" font-size="9" fill="#6e7681">D</text>
+<rect x="552.3" y="222.0" width="48.3" height="40.0" fill="#56d364" stroke="#17140f"/>
+<text x="576.4" y="275" text-anchor="middle" font-size="9" fill="#6e7681">S</text>
+<rect x="604.6" y="255.4" width="48.3" height="6.6" fill="#56d364" stroke="#17140f"/>
+<text x="628.7" y="275" text-anchor="middle" font-size="9" fill="#6e7681">T</text>
+<rect x="656.9" y="257.2" width="48.3" height="4.8" fill="#56d364" stroke="#17140f"/>
+<text x="681.0" y="275" text-anchor="middle" font-size="9" fill="#6e7681">Q</text>
+<rect x="709.1" y="259.0" width="48.3" height="3.0" fill="#56d364" stroke="#17140f"/>
+<text x="733.3" y="275" text-anchor="middle" font-size="9" fill="#6e7681">Q</text>
+<rect x="761.4" y="259.0" width="48.3" height="3.0" fill="#2a313c" stroke="#17140f"/>
+<text x="785.6" y="275" text-anchor="middle" font-size="9" fill="#6e7681">S</text>
+<rect x="813.7" y="259.0" width="48.3" height="3.0" fill="#2a313c" stroke="#17140f"/>
+<text x="837.9" y="275" text-anchor="middle" font-size="9" fill="#6e7681">S</text>
+<rect x="15" y="1" width="168.29999999999998" height="24" fill="#4493f8" stroke="#17140f" stroke-width="2"/>
+<text x="26" y="17.5" font-size="11" font-weight="800" fill="#0d1117" textLength="146.29999999999998" lengthAdjust="spacing">PLACAR · GIT STATUS</text>
+</svg>
